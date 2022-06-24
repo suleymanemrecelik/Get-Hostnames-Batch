@@ -5,7 +5,7 @@ There are two batch scripts with different methods to get hostnames of IPs from 
 One of the methods is getting hostname with ICMP packet, another is DNS query.
 
 ### Installation
-``` batch
+``` bash
 git clone https://suleymanemrecelik/Get-Hostnames-Batch.git
 ```
 
@@ -14,6 +14,6 @@ git clone https://suleymanemrecelik/Get-Hostnames-Batch.git
 2. Run one of scripts.
 3. Hostnames will appear in output.txt
 
-###Known Bugs
+### Known Bugs
 To avoid get domain, scripts process text before the first dot. So, it causes missing hostnames which have dot in name.
 For ICMP method, if hostname could not be find, the first octet of IP is printed.
