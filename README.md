@@ -15,5 +15,5 @@ git clone https://suleymanemrecelik/Get-Hostnames-Batch.git
 3. Hostnames will appear in output.txt
 
 ### Known Bugs
-To avoid get domain, scripts process text before the first dot. So, it causes missing hostnames which have dot in name.
-For ICMP method, if hostname could not be find, the first octet of IP is printed.
+- To avoid get domain, scripts process text before the first dot. So, it causes missing hostnames which have dot in name.
+- For ICMP method, if hostname could not be find, the first octet of IP is printed.
